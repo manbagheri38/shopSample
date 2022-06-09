@@ -1,0 +1,63 @@
+{
+  "ware": [
+    {
+      "id": 2335,
+      "name": "سامسونگ س20",
+      "code": "samsung s20",
+      "shortDescription": "ساخت کشور کره جنوبی",
+      "description": "گوشی جدید سامسونگ",
+      "price": "20000000",
+      "discount": "100000",
+      "parentId": 963,
+      "groupId": 634,
+      "image": "https://it-tat.com/wp-content/uploads/2021/05/samsung-galaxy-s20-dual-sim-en-gris-de-128gb-y-8gb-ram-sm-g980f-ds.jpg"
+    },
+    {
+      "id": 229,
+      "name": "اپل 13 مکس",
+      "code": "apple 13 max",
+      "shortDescription": "گوشی مناسب کسانی که به محصولات اپل علاقه مند هستند.",
+      "description": "ساخت کمپانی خوش نام اپل می باشد.",
+      "price": "30000000",
+      "discount": "0",
+      "parentId": 963,
+      "groupId": 403,
+      "image": "https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg"
+    }
+  ],
+  "groups": [
+    {
+      "id": 963,
+      "groupName": "تلفن همراه",
+      "parentId": 0
+    },
+    {
+      "id": 827,
+      "groupName": "تلویزیون",
+      "parentId": 0
+    },
+    {
+      "id": 634,
+      "groupName": "سامسونگ",
+      "parentId": 963
+    },
+    {
+      "id": 403,
+      "groupName": "اپل",
+      "parentId": 963
+    },
+    {
+      "id": 764,
+      "groupName": "سامسونگ",
+      "parentId": 827
+    }
+  ],
+  "wareDetails":[
+    {
+      "id":1,
+      "wareId":229,
+      "value":"وزن",
+      "text":"225 گرم"
+    }
+  ]
+}

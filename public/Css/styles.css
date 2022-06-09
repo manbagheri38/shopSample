@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'msi';
+    src: url('../Fonts/Vazir.eot') format('eot');
+    src : url('../Fonts/Vazir.ttf') format('truetype'),
+    url('../Fonts/Vazir.woff') format('woff');
+}
+
+*{
+    font-family: 'msi' !important;
+}
+
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'msi';
+    background-color: beige;
+
+}
