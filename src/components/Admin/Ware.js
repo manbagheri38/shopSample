@@ -1,5 +1,6 @@
 import { Button, Container, Divider, FormControl, InputLabel, makeStyles, MenuItem, Paper, Select, TextField, Typography } from "@material-ui/core";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { InsertWare } from "../../api/Admin/Ware";
 import { GetAllGroup } from "../../api/ApiGroup";
 
@@ -96,6 +97,7 @@ const Ware = () => {
         <Container className={classes.container}>
 
             <Paper className={classes.paper}>
+                <Link to={"/warelist"} >لیست کالاها</Link>
                 <div className={classes.title} >
                     <Typography variant="h5" color="secondary">اضافه کردن کالای جدید</Typography>
                     <Divider />
